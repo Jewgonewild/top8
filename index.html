@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Top 8 - Your top 8 friends</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script>
+      function isIOS() {
+        return /iPhone|iPad|iPod/i.test(navigator.userAgent);
+      }
+
+      function isAndroid() {
+        return /Android/i.test(navigator.userAgent);
+      }
+
+      function showButtons() {
+        var buttonGroup = document.querySelector('.button-group');
+        var iosButton = document.querySelector('.ios-button');
+        var androidButton = document.querySelector('.android-button');
+        
+        if (isIOS()) {
+          buttonGroup.removeChild(androidButton);
+        } else if (isAndroid()) {
+          buttonGroup.removeChild(iosButton);
+        }
+      }
+      
+      window.onload = showButtons;
+    </script>
+  </head>
+  <body>
+    <main>
+      <div class="content">
+        <img src="./images/logo.png" width="400" alt="Top 8">
+      </div>
+      <p>💕 choose your top 8 friends</p>
+      <p>💌 let them know they’re special</p>
+      <p>🫶 share your top8 everywhere</p>
+      <div class="button-group">
+        <a class="ios-button" href="http://topg.chat/app?url=hp"><img src="./images/ios-download.png" height="60" width="180" alt="Button 1"></a>
+        <a class="android-button" href="http://topg.chat/app?url=hp"><img src="./images/android-download-new.png" width="180" height="60" alt="Button 2"></a>
+      </div>
+    </main>
+   
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
