@@ -88,3 +88,13 @@ p {
 .button-group a:last-child {
   margin-right: 0;
 }
+
+.spacer {
+  padding-top: 180px;
+}
+
+.text {
+  text-align: left; 
+  padding:20px; 
+  font-size: 12pt;
+}

@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Graphik", sans-serif;
+  margin: 0;
+  background: #fff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.logo {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.content {
+  text-align: left;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #333;
+}
