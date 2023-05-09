@@ -29,7 +29,7 @@ main {
 content img {
   max-width: 400px;
   height: auto;
-  padding-top: 50px;
+  
 }
 
 header {
@@ -50,6 +50,7 @@ header h1 {
 footer {
   color: #fff;
   align-items: bottom;
+  font-size: large;
 }
 
 nav ul {
@@ -72,6 +73,7 @@ p {
   margin-bottom: 0;
   text-align: left;
   align-items: left;
+  font-size: large;
 }
 
 .button-group {
@@ -79,6 +81,7 @@ p {
   justify-content: center;
   align-items: center;
   margin-top: 40px;
+  
 }
 
 .button-group a {
@@ -87,4 +90,16 @@ p {
 
 .button-group a:last-child {
   margin-right: 0;
+}
+
+.text
+ {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  text-align: left;
+  align-items: left;
+}
+
+.spacer {
+  margin-top: 180px;
 }
