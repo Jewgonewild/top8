@@ -93,6 +93,13 @@ p {
   padding-top: 180px;
 }
 
+.logo {
+  font-family: "Boogaloo", sans-serif;
+  color:#fff;
+  -webkit-text-stroke: 7px #000;
+  font-size: 9em;
+}
+
 .text {
   text-align: left; 
   padding:20px; 
