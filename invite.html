@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SKHPMTJ4Y5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-SKHPMTJ4Y5');
+    </script>
+    <script>
+      !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+      posthog.init('phc_ixFx4zZeUmAkU8lsbSAp6Dpa7cvBnXbE1XQLEa69lia',{api_host:'https://app.posthog.com'})
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Boogaloo&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+      <link rel="shortcut icon" href="favicon-word.ico" />
+      <link rel="stylesheet" href="style.css">
+  	  <title>Top8 - Download Top8 now</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="Choose your best riends. Share on instagram, snap, tiktok, twitter and more.">
+      <meta name="keywords" content="Top8, myspace top 8, friends, top 8 friends, best friends">
+      <meta name="author" content="Errand Boy Capital LLC">
+      <meta property="og:title" content="Top8 - Who are your best friends?">
+      <meta property="og:description" content="Choose your best riends. Share on instagram, snap, tiktok, twitter and more.">
+      <meta property="og:url" content="https://top8.ink/">
+      <meta property="og:image" content="./images/logo.png">
+      <meta property="twitter:card" content="summary_large_image">
+      <meta property="twitter:title" content="Top8 - Who are your best friends?">
+      <meta property="twitter:description" content="Choose your best riends. Share on instagram, snap, tiktok, twitter and more.">
+      <meta property="twitter:image" content="./images/logo.png">
+      <meta property="twitter:url" content="https://top8.ink/">
+    <script>
+      function isIOS() {
+        return /iPhone|iPad|iPod/i.test(navigator.userAgent);
+      }
+
+      function isAndroid() {
+        return /Android/i.test(navigator.userAgent);
+      }
+
+      function showButtons() {
+        var buttonGroup = document.querySelector('.button-group');
+        var iosButton = document.querySelector('.ios-button');
+        var androidButton = document.querySelector('.android-button');
+        
+        if (isIOS()) {
+          buttonGroup.removeChild(androidButton);
+        } else if (isAndroid()) {
+          buttonGroup.removeChild(iosButton);
+        }
+      }
+      
+      window.onload = showButtons;
+    </script>
+  </head>
+  <body>
+    <main>
+      <div class="spacer"></div>
+      <div class="content logo">
+        Top8
+      </div>
+      <div class="text">
+        <p>💕 Pick up to 8 of your best friends.</p>
+        <p> 💌 Let them know they’re in your Top8.</p>
+        <p>🫶 Share your top8 on Snap, Insta & Twitter.</p>
+      </div>
+      <div class="button-group">
+        <a class="ios-button" href="http://top8.ink/app?url=hp"><img src="./images/ios-download-resized.png" width="170" alt="Button 1"></a>
+        <a class="android-button" href="http://top8.ink/app?url=hp"><img src="./images/android-download-resized.png" width="170" alt="Button 2"></a>
+      </div>
+    </main>
+   
+    <footer>
+      <nav>
+        <ul>
+          <li></li>
+          <li><a href="./terms.html">Terms</a></li>
+          <li><a href="./privacy.html">Privacy</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
